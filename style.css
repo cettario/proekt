@@ -1,0 +1,51 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+}
+
+.screen {
+    height: 100vh;
+    padding: 50px 0;
+}
+
+
+#hero {
+    background: url('https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg') center/cover no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features {
+    background: #f8f9fa;
+}
+
+.mk{
+    height: 500px;
+}
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+
+#about {
+    background: #e9ecef;
+}
+
+
+#gallery {
+    padding-top: 200px;
+}
+
+
+#contact {
+    background: #343a40;
+}
